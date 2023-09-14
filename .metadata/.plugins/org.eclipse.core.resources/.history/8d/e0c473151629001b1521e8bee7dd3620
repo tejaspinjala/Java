@@ -1,0 +1,37 @@
+/* 
+ * Tejas Pinjala Chapter 10 Pg: 698 Problem # 9
+ * COSC - 1437
+ * Professor Woods
+ * 11/18/2020
+ * 
+ * BankAccount and SavingsAccount Classes
+ */
+
+package BankAccount;
+
+public abstract class BankAccount {
+	
+	protected double balance;
+	protected int depositsPerMonth;
+	protected int withdrawls;
+	protected double annualInterestRate;
+	protected double monthlyServiceCharge;
+	
+	public BankAccount(double balance, double annualInterestRate){
+		this.balance = balance;
+		this.depositsPerMonth = 0;
+		this. withdrawls = 0;
+		this.annualInterestRate = annualInterestRate;
+		this.monthlyServiceCharge = 0;
+	}
+	
+	public void deposit() {
+		
+	}
+	
+	public void withdraw() {
+		
+	}
+	
+	public void 
+}
